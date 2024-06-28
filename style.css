@@ -1,0 +1,362 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+}
+.header{
+    height: 700px;
+    width: 100%;
+    background-image:linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0.4) 60%, rgba(0, 0, 0, 0.8) 100%),url(./Assets/header-image.png);
+    background-size: cover;
+    background-position: center;    
+}
+
+#logo{
+    width: 160px;
+    height: 50px;
+}
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 150px;
+    flex-direction: row;
+}
+
+.button-section{
+    height: 50px;
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 10px;
+    left: 15px;
+}
+
+.lang-btn{
+    height: 31px;
+    width: 130px;
+    font-size: 15px;
+    font-weight: 600;
+    background: black;
+    color: white;
+    border: 1px solid #6c6c6c;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lang-btn:active{
+    border-color: white;
+}
+
+.signin-btn{
+    height: 33px;
+    width: 80px;
+    background: #e20303;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.signin-btn:hover{
+    background-color: #c70303;
+    transition: 0.4s;
+}
+
+.buttonsection-select{
+    appearance: none;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.language-icon{
+    height: 20px;
+    width: 20px;
+    margin-right: 7px;
+}
+
+.membership-section{
+    height: 330px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: 120px;
+}
+
+.membership-form{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+#membership-inptbox{
+    background: rgba(22, 22, 22, 0.7);
+    height: 50px;
+    width: 390px;
+    font-size: medium;
+    border: 1px solid #727272;
+    border-radius: 4px;
+}
+
+#membership-inptbox::placeholder{
+    color: rgb(181, 181, 181);
+    padding-left: 15px;
+}
+
+#membership-submitbtn{
+    height: 54px;
+    width: 200px;
+    background: rgb(234, 2, 13);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 25px;
+    margin-left: 5px;
+}
+
+#membership-submitbtn:hover{
+    background-color: rgb(193, 17, 25);
+    transition: 0.4s;
+}
+
+
+.breaking-section{
+    height: 0.5rem;
+    width: 100%;
+    background-color: rgb(35,35,35);
+}
+
+.sections{
+    height: 500px;
+    width: 100%;
+    display: flex;
+}
+
+.section1-left{
+    width: 50%;
+    align-items: center;
+    display: flex;
+    justify-content: end;
+}
+
+.section1-content{
+    width: 75%;
+}
+
+.headings{
+    font-size: 48px;
+    font-weight: 800;
+    margin: 0;
+}
+
+.para{
+    font-size: 24px;
+    margin-top: 15px;
+}
+
+.section1-right{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.section1-image{
+    height: 350px;
+    width: 80%;
+}
+
+.section2-left{
+    width: 50%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.section2-image{
+    height: 350px;
+    width: 70%;
+}
+
+.section2-right{
+    height: 500px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.section2-content{
+    height: 350px;
+    width: 80%;
+}
+
+.section3-left{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+
+.section3-content{
+    width: 75%;
+    height: 250px;
+}
+
+.section3-right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.section3-image{
+    width: 70%;
+    height: 400px;
+}
+
+
+.section4-left{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.section4-image{
+    width: 77%;
+    height: 360px;
+}
+
+.section4-right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.section4-content{
+    width: 75%;
+    height: 260px;
+}
+
+.footer{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-container{
+    width: 75%;
+    height: 300px;   
+}
+
+
+.enquiry-para{
+    color: #b5b3b3; 
+    font-size: 16px;
+}
+
+.links-section{
+    height: 150px;
+    width: 100%;
+}
+
+.links-section ul li{
+    list-style-type: none;
+    color: #b5b3b3;
+    margin-bottom: 15px;
+}
+
+.links-section ul li a{
+    color: #b5b3b3;
+    font-size: 14px;
+}
+
+.row{
+    width: 98%;
+    display: flex;
+    justify-content: space-around;
+    margin-left: -60px;
+}
+
+.links-section ul{
+    padding-left: 0;
+    margin: 5px;
+}
+
+.faq-section{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.faq-container{
+    width: 76%;
+    height: auto;
+}
+
+.faq-heading{
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.faq-questions{
+    width: 100%;
+    height: auto;
+}
+
+summary{
+    background: rgb(45, 45, 45);
+    height: 83px;
+    font-size: 25px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 0px 25px;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+summary:hover{
+    background-color: rgb(68, 68, 68);;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.answer{
+    height: auto;
+    width: 100%;
+    background-color: rgb(45, 45, 45);
+    padding: 26px 0px;
+}
+
+.answer p{
+    margin-top: 3px;
+    font-size: 1.5rem;
+    margin: 0px 25px;
+}
